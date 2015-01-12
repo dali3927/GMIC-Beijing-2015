@@ -1,0 +1,30 @@
+###市场份额
+
+![移动支付 市场份额](http://pic.iresearch.cn/news/201411/635520979456562500.jpg)
+
+2013Q3到2014年Q3中国第三方移动支付交易规模市场份额整体变动不大，市场份额排名前三位的企业是支付宝、财付通和拉卡拉。支付宝优势明显，五个季度市场份额均在80%上下，且有上升趋势。财付通2014年三个季度凭借着微信支付的崛起，市场份额有了较大提升。
+
+财富通数据包含微信支付和手机QQ支付。
+
+移动支付市场支付宝占80%份额，财富通(微信支付+手机QQ支付)共占10%份额，相差悬殊。
+
+###微信支付宝 “不兼容”
+
+用户习惯用使用[微信扫描](http://www.ittime.com.cn/index.php?a=show&catid=83&id=7481)任何二维码。
+
+公司也希望通过开发一套HTML5页面，实现微信公众号购票、扫码购票。
+
+![微信支付宝 “不兼容”](https://raw.githubusercontent.com/leeang/GMIC/master/ticket/img/ali-tencent.png)
+
+若HTML5页面在支付环节调用支付宝，则会出现“不兼容”提示。用户必须使用其它浏览器打开链接，方能完成支付。
+
+因此，**HTML5页面建议使用微信支付**。
+
+###支付宝 “生态圈”
+
++ [移动开放平台](https://mp.alipay.com/)
++ [服务窗平台](https://fuwu.alipay.com/platform/index.htm) (类似于微信公众平台)
++ [卡券平台](https://alipass.alipay.com/help/introIndex.htm) (票务系统)
++ [扫码担保交易收款](https://b.alipay.com/order/productDetail.htm?productId=2014022406013530) (费率 2.5% ~ 2%)
++ [手机网站支付](https://b.alipay.com/order/productDetail.htm?productId=2014110308142133) (费率 1.5% ~ 1.25% 10万元之内免费)
+
