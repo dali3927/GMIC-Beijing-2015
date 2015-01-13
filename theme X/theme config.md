@@ -8,7 +8,12 @@ Line 18: @import url(//fonts.googleapis.com/css?family=Lato:300&text=X);
 Line 78:     $get_custom_font_family   = add_query_arg( $custom_font_args,   '//fonts.googleapis.com/css' );  
 Line 79:     $get_standard_font_family = add_query_arg( $standard_font_args, '//fonts.googleapis.com/css' );
 
-theme.co/x/demo/integrity/1/wp-content/uploads/sites/2/2013/06/bg-integrity-1.png
+###wp-options
+x_design_bg_image_pattern  
+http://7q5bmq.com5.z0.glb.clouddn.com/gmic/bg-integrity-1.png
+
+x_logo  
+http://7q5bmq.com5.z0.glb.clouddn.com/gmic/logo.png
 
 ###Revolution Slider
 Slider Layout: Full Screen
