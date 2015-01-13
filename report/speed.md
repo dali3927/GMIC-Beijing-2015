@@ -45,4 +45,4 @@ CSS、JavaScript、图片等静态文件未开启CDN，
 
 ![GMIC 2015](https://raw.githubusercontent.com/leeang/GMIC/master/report/img/baidu-speed-test-2015.png)
 
-根据百度网站速度诊断报告，GMIC2014页面打开时间60.01秒，GMIC2015打开时间2.11秒，速度提高28倍。
+根据百度网站速度诊断报告，GMIC2015打开时间2.11秒(GMIC2014 60.01秒)，速度提高**28倍**。
