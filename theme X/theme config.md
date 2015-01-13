@@ -1,5 +1,3 @@
-Layout and Design > Content Layout > Fullwidth
-
 ###Google Font
 \framework\css\admin\global.css  
 Line 18: @import url(//fonts.googleapis.com/css?family=Lato:300&text=X);
@@ -14,6 +12,15 @@ http://7q5bmq.com5.z0.glb.clouddn.com/gmic/bg-integrity-1.png
 
 x_logo  
 http://7q5bmq.com5.z0.glb.clouddn.com/gmic/logo.png
+
+x_site_link_color  
+#3258a8
+
+###Customise
+
+#####Footer
+Footer Menu		Off
+Footer Social	Off
 
 ###Revolution Slider
 Slider Layout: Full Screen
