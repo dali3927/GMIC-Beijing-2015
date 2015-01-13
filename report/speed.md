@@ -38,3 +38,11 @@ CSS、JavaScript、图片等静态文件未开启CDN，
 
 网页在**5.3秒**内主体加载完毕，在**10.3秒**内完全加载完毕。
 相比**表层优化**，全方位优化后，等待时间变为27ms，只是前者的**千分之六**。
+
+###GMIC 2014/2015 百度测速比较
+
+![GMIC 2014](https://raw.githubusercontent.com/leeang/GMIC/master/report/img/baidu-speed-test-2014.png)
+
+![GMIC 2015](https://raw.githubusercontent.com/leeang/GMIC/master/report/img/baidu-speed-test-2015.png)
+
+根据百度网站速度诊断报告，GMIC2014页面打开时间60.01秒，GMIC2015打开时间2.11秒，速度提高28倍。
