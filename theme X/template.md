@@ -23,7 +23,7 @@
 + [Promo](http://theme.co/x/demo/integrity/1/shortcodes/promo/)
 + [Prompt](http://theme.co/x/demo/integrity/1/shortcodes/prompt/)
 + [Responsive Lightbox](http://theme.co/x/demo/integrity/1/shortcodes/responsive-lightbox/)
-+ [Integrity]()
++ [Responsive Pricing Table](http://theme.co/x/demo/integrity/1/shortcodes/responsive-pricing-table/)
 + [Integrity]()
 + [Integrity]()
 + [Integrity]()

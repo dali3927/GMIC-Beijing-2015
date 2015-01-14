@@ -27,7 +27,9 @@ http://7q5bmq.com5.z0.glb.clouddn.com/gmic/logo.png
 Site Links		3258a8
 
 #####Header
-Navbar Search	Off
+Navbar Search	Off  
+Breadcrumbs		Off  
+Topbar			On
 
 #####Footer
 Footer Menu		Off
