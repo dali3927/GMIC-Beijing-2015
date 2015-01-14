@@ -1,8 +1,8 @@
 ###Google Font
-#####\framework\css\admin\global.css
+#####/framework/css/admin/global.css
 @import url(//fonts.googleapis.com/css?family=Lato:300&text=X);
 
-#####\framework\functions\global\enqueue\styles.php
+#####/wp-content/themes/x/framework/functions/global/enqueue/styles.php
 
 $get_custom_font_family   = add_query_arg( $custom_font_args,   '//fonts.googleapis.com/css' );  
 $get_standard_font_family = add_query_arg( $standard_font_args, '//fonts.googleapis.com/css' );  
@@ -10,6 +10,9 @@ fonts.useso.com
 
 wp_enqueue_style( 'x-font-standard', $get_standard_font_family, NULL, NULL, 'all' );  
 http://7q5bmq.com5.z0.glb.clouddn.com/gmic/lato.css
+
+#####/wp-content/themes/x/framework/views/global/_header-widget-areas.php
+wipe
 
 ###wp-options
 x_design_bg_image_pattern  
