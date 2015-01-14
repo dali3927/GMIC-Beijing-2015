@@ -18,10 +18,13 @@ http://7q5bmq.com5.z0.glb.clouddn.com/gmic/bg-integrity-1.png
 x_logo  
 http://7q5bmq.com5.z0.glb.clouddn.com/gmic/logo.png
 
-x_site_link_color  
-3258a8
-
 ###Customise
+
+#####Typography
+Site Links		3258a8
+
+#####Header
+Navbar Search	Off
 
 #####Footer
 Footer Menu		Off
