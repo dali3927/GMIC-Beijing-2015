@@ -1,0 +1,16 @@
+.x-topbar {
+	background: #000;
+	min-height: initial;
+}
+.x-topbar a {
+	color: #FFF;
+}
+body.home .x-brand, .resp-h {
+	color: #3258a8;
+}
+body.ticket .special {
+	margin-top: 15px;
+}
+body.ticket .special mark {
+	font-size: 25px;
+}
