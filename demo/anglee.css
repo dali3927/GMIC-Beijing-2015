@@ -2,8 +2,29 @@
 	background: #000;
 	min-height: initial;
 }
-.x-topbar a {
+.x-topbar .p-info {
+	margin: 9px 0;
+	font-size: 15px;
+	color: #999 !important;
+}
+.x-topbar p.p-info a {
+	color: #FFF !important;
+	border: none;
+}
+.x-topbar p.p-info a:hover {
+	color: #999 !important;
+}
+.x-topbar .x-social-global {
+	margin-top: 8px;
+}
+.x-topbar .x-social-global a {
 	color: #FFF;
+}
+.x-topbar .x-social-global a:hover {
+	color: #999;
+}
+body.home img.event {
+	width: 60%;
 }
 body.home .x-brand, .resp-h {
 	color: #3258a8;
