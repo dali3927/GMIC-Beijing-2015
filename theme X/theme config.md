@@ -26,6 +26,10 @@ http://7q5bmq.com5.z0.glb.clouddn.com/gmic/logo.png
 #####Typography
 Site Links		3258a8
 
+#####Button
+Colors			3258a8
+Hover Colors	1e73be
+
 #####Header
 Navbar Search	Off  
 Breadcrumbs		Off  
