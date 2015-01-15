@@ -2,6 +2,11 @@
 	background: #000;
 	min-height: initial;
 }
+@media screen and (max-width: 767px) {
+	.x-topbar {
+		display: none;
+	}
+}
 .x-topbar .p-info {
 	margin: 9px 0;
 	font-size: 15px;
@@ -13,6 +18,10 @@
 }
 .x-topbar p.p-info a:hover {
 	color: #999 !important;
+}
+.x-topbar p.p-info .language {
+	margin-left: 20px;
+	font-family: "Microsoft YaHei", "Segoe UI", Tahoma, Arial, Verdana, sans-serif;
 }
 .x-topbar .x-social-global {
 	margin-top: 8px;
@@ -28,6 +37,9 @@ body.home img.event {
 }
 body.home .x-brand, .resp-h {
 	color: #3258a8;
+}
+body.home .appraise {
+	background: rgba(0, 0, 0, 0.5);
 }
 body.ticket .special {
 	margin-top: 15px;
