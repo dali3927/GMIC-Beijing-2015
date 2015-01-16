@@ -9,17 +9,17 @@ $get_standard_font_family = add_query_arg( $standard_font_args, '//fonts.googlea
 fonts.useso.com
 
 wp_enqueue_style( 'x-font-standard', $get_standard_font_family, NULL, NULL, 'all' );  
-http://7q5bmq.com5.z0.glb.clouddn.com/gmic/lato.css
+http://7u2l46.com2.z0.glb.qiniucdn.com/2015/lato.css
 
 #####/wp-content/themes/x/framework/views/global/_header-widget-areas.php
 wipe
 
 ###wp-options
 x_design_bg_image_pattern  
-http://7q5bmq.com5.z0.glb.clouddn.com/gmic/bg-integrity-1.png
+http://7u2l46.com2.z0.glb.qiniucdn.com/2015/bg.png
 
 x_logo  
-http://7q5bmq.com5.z0.glb.clouddn.com/gmic/logo.png
+http://7u2l46.com2.z0.glb.qiniucdn.com/2015/logo.png
 
 ###Customise
 
@@ -27,7 +27,7 @@ http://7q5bmq.com5.z0.glb.clouddn.com/gmic/logo.png
 Site Links		3258a8
 
 #####Button
-Colors			3258a8
+Colors			3258a8  
 Hover Colors	1e73be
 
 #####Header
