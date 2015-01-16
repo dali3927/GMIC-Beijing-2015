@@ -9,7 +9,7 @@ $get_standard_font_family = add_query_arg( $standard_font_args, '//fonts.googlea
 fonts.useso.com
 
 wp_enqueue_style( 'x-font-standard', $get_standard_font_family, NULL, NULL, 'all' );  
-http://7u2l46.com2.z0.glb.qiniucdn.com/2015/lato.css
+wp_enqueue_style( 'anglee', 'http://7u2l46.com2.z0.glb.qiniucdn.com/2015/lato.css', NULL, NULL, 'all' );
 
 #####/wp-content/themes/x/framework/views/global/_header-widget-areas.php
 wipe
