@@ -1,0 +1,56 @@
+[pricing_table columns="4"]
+[pricing_table_column title="VIP门票" currency="¥" price="15,000" featured="true"]
+<p><strong id="vipStock"></strong> left</p>
+[icon_list]
+[icon_list_item type="check"]VIP休息室[/icon_list_item]
+[icon_list_item type="check"]VIP午餐[/icon_list_item]
+[icon_list_item type="check"]VIP欢迎晚宴[/icon_list_item]
+[icon_list_item type="check"]包含所有主会场门票的权益[/icon_list_item]
+[/icon_list]
+[button type="flat" shape="rounded" href="http://beijing.gwcevents.com/zh-cn/Home/RegisterEventHome/130"][icon type="shopping-cart"]注册参会[/button]
+[/pricing_table_column]
+[pricing_table_column title="主会场门票" currency="¥" price="10,000"]
+<p><strong id="goldStock"></strong> left</p>
+<p class="special"><strong>优惠价</strong> <mark class="x-highlight">¥<strong id="goldSpecial"></strong></mark><br/>有效期至 <strong class="endDate"></strong></p>
+[icon_list]
+[icon_list_item type="check"]领袖峰会专场以及其他所有分会场[/icon_list_item]
+[icon_list_item type="check"]参与商务社交活动，比如GMIC会后派对[/icon_list_item]
+[icon_list_item type="check"]通过GMIC App进行商务社交[/icon_list_item]
+[icon_list_item type="check"]包含所有分会场门票的权益[/icon_list_item]
+[/icon_list]
+[button type="flat" shape="rounded" href="http://beijing.gwcevents.com/zh-cn/Home/RegisterEventHome/130"][icon type="shopping-cart"]注册参会[/button]
+[/pricing_table_column]
+[pricing_table_column title="分会场门票" currency="¥" price="3,000"]
+<p><strong id="silverStock"></strong> left</p>
+<p class="special"><strong>优惠价</strong> <mark class="x-highlight">¥<strong id="silverSpecial"></strong></mark><br/>有效期至 <strong class="endDate"></strong></p>
+[icon_list]
+[icon_list_item type="check"]所有分会场[/icon_list_item]
+[icon_list_item type="check"]包含所有展览区门票权益[/icon_list_item]
+[icon_list_item type="times" style="color: red;"]不包括领袖峰会专场[/icon_list_item]
+[/icon_list]
+[button type="flat" shape="rounded" href="http://beijing.gwcevents.com/zh-cn/Home/RegisterEventHome/130"][icon type="shopping-cart"]注册参会[/button]
+[/pricing_table_column]
+[pricing_table_column title="展览门票" currency="¥" price="200"]
+<p><strong id="expoStock"></strong> left</p>
+<p class="special"><strong>优惠价</strong> <mark class="x-highlight">¥<strong id="expoSpecial"></strong></mark><br/>有效期至 <strong class="endDate"></strong></p>
+[icon_list]
+[icon_list_item type="check"]与展览区百家的展商交流[/icon_list_item]
+[/icon_list]
+[button type="flat" shape="rounded" href="http://beijing.gwcevents.com/zh-cn/Home/RegisterEventHome/130"][icon type="shopping-cart"]注册参会[/button]
+[/pricing_table_column]
+[/pricing_table]
+
+<script>
+jQuery(document).ready(function(){
+	jQuery.getJSON("/json.php", function(json) {
+		jQuery('#vipStock').text(json.vipStock);
+		jQuery('#goldStock').text(json.goldStock);
+		jQuery('#silverStock').text(json.silverStock);
+		jQuery('#expoStock').text(json.expoStock);
+		jQuery('#goldSpecial').text(json.goldSpecial);
+		jQuery('#silverSpecial').text(json.silverSpecial);
+		jQuery('#expoSpecial').text(json.expoSpecial);
+		jQuery('.endDate').text(json.endDate);
+	});
+});
+</script>
