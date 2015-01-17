@@ -34,12 +34,10 @@ Hover Colors	1e73be
 
 #####Header
 Navbar Search	Off  
-Breadcrumbs		Off  
-Topbar			On
+Topbar			On  
+Breadcrumbs		Off
 
 #####Footer
-Footer Menu		Off
-Footer Social	Off
 
 ###Revolution Slider
 Slider Layout: Full Screen
