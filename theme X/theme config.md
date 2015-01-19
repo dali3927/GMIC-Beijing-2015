@@ -9,7 +9,7 @@ $get_standard_font_family = add_query_arg( $standard_font_args, '//fonts.googlea
 fonts.useso.com
 
 wp_enqueue_style( 'x-font-standard', $get_standard_font_family, NULL, NULL, 'all' );  
-wp_enqueue_style( 'x-font-standard', 'http://7u2l46.com2.z0.glb.qiniucdn.com/2015/lato.css', NULL, NULL, 'all' );
+wp_enqueue_style( 'x-font-standard', 'http://7u2l46.com5.z0.glb.qiniucdn.com/2015/lato.css', NULL, NULL, 'all' );
 
 wp_enqueue_style( 'anglee', '/anglee.css', NULL, NULL, 'all' );
 
@@ -18,10 +18,10 @@ wipe
 
 ###wp-options
 x_design_bg_image_pattern  
-http://7u2l46.com2.z0.glb.qiniucdn.com/2015/bg.png
+http://7u2l46.com5.z0.glb.qiniucdn.com/2015/bg.png
 
 x_logo  
-http://7u2l46.com2.z0.glb.qiniucdn.com/2015/logo.png
+http://7u2l46.com5.z0.glb.qiniucdn.com/2015/logo.png
 
 ###Customise
 
