@@ -1,3 +1,8 @@
+.clear {
+	clear: both;
+}
+
+/* topbar */
 .x-topbar {
 	background: #000;
 	min-height: initial;
@@ -32,6 +37,8 @@
 .x-topbar .x-social-global a:hover {
 	color: #999;
 }
+
+/* homepage */
 body.home img.event {
 	width: 60%;
 }
@@ -41,9 +48,80 @@ body.home .x-brand, .resp-h {
 body.home .appraise {
 	background: rgba(0, 0, 0, 0.5);
 }
-body.ticket .special {
-	margin-top: 15px;
+
+/* ticket */
+body.ticket .x-highlight {
+	background: red;
 }
-body.ticket .special mark {
-	font-size: 25px;
+
+/* sponsor */
+body.sponsor .one-fourth {
+	float: left;
+	width: 25%;
+}
+body.sponsor .one-sixth {
+	float: left;
+	width: 16.6%;
+}
+@media (max-width: 767px) {
+	body.sponsor .one-fourth {
+		float: left;
+		width: 100%;
+	}
+	body.sponsor .one-sixth {
+		float: left;
+		width: 50%;
+	}
+	body.sponsor .xs-clear {
+		clear: both;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	body.sponsor .one-fourth {
+		float: left;
+		width: 50%;
+	}
+	body.sponsor .one-sixth {
+		float: left;
+		width: 33.3%;
+	}
+	body.sponsor .sm-clear {
+		clear: both;
+	}
+}
+body.sponsor .one-fourth img, body.sponsor .one-sixth img {
+	margin: 0 auto;
+	max-width: 90%;
+	display: block;
+}
+body.sponsor .sponsor-h {
+	margin: 1.5em auto 1em;
+}
+
+/* program */
+.program .one-fourth {
+	float: left;
+	width: 25%;
+}
+@media (max-width: 767px) {
+	.program .one-fourth {
+		float: left;
+		width: 100%;
+	}
+	.program .xs-clear {
+		clear: both;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	.program .one-fourth {
+		float: left;
+		width: 50%;
+	}
+	.program .sm-clear {
+		clear: both;
+	}
+}
+.program .x-promo {
+	margin: 0 auto 2em;
+	max-width: 90%;
 }
