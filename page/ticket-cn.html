@@ -2,7 +2,7 @@
 [pricing_table_column title="VIP门票" currency="¥" price="15,000"]
 [icon_list]
 [icon_list_item type="rmb"]限时优惠价 <strong>无</strong>[/icon_list_item]
-[icon_list_item type="rocket"]余量 <strong id="vipStock"></strong> / 1000[/icon_list_item]
+[icon_list_item type="rocket"]余量 <strong id="vipStock"></strong><!--  / 1000 -->[/icon_list_item]
 [/icon_list]
 [button type="flat" shape="rounded" href="http://beijing.gwcevents.com/zh-cn/Home/RegisterEventHome/130"][icon type="shopping-cart"]立即购买[/button]
 [icon_list]
@@ -17,7 +17,7 @@
 [pricing_table_column title="金牌门票" currency="¥" price="10,000"]
 [icon_list]
 [icon_list_item type="rmb"]限时优惠价 <mark class="x-highlight" id="goldCN"></mark>[/icon_list_item]
-[icon_list_item type="rocket"]余量 <strong id="goldStock"></strong> / 3000[/icon_list_item]
+[icon_list_item type="rocket"]余量 <strong id="goldStock"></strong><!--  / 3000 -->[/icon_list_item]
 [/icon_list]
 [button type="flat" shape="rounded" href="http://beijing.gwcevents.com/zh-cn/Home/RegisterEventHome/130"][icon type="shopping-cart"]立即购买[/button]
 [icon_list]
@@ -32,7 +32,7 @@
 [pricing_table_column title="银牌门票" currency="¥" price="3,000"]
 [icon_list]
 [icon_list_item type="rmb"]限时优惠价 <mark class="x-highlight" id="silverCN"></mark>[/icon_list_item]
-[icon_list_item type="rocket"]余量 <strong id="silverStock"></strong> / 5000[/icon_list_item]
+[icon_list_item type="rocket"]余量 <strong id="silverStock"></strong><!--  / 5000 -->[/icon_list_item]
 [/icon_list]
 [button type="flat" shape="rounded" href="http://beijing.gwcevents.com/zh-cn/Home/RegisterEventHome/130"][icon type="shopping-cart"]立即购买[/button]
 [icon_list]
@@ -46,7 +46,7 @@
 [pricing_table_column title="展览门票" currency="¥" price="200"]
 [icon_list]
 [icon_list_item type="rmb"]限时优惠价 <mark class="x-highlight" id="expoCN"></mark>[/icon_list_item]
-[icon_list_item type="rocket"]余量 <strong id="expoStock"></strong> / 20000[/icon_list_item]
+[icon_list_item type="rocket"]余量 <strong id="expoStock"></strong><!--  / 20000 -->[/icon_list_item]
 [/icon_list]
 [button type="flat" shape="rounded" href="http://beijing.gwcevents.com/zh-cn/Home/RegisterEventHome/130"][icon type="shopping-cart"]立即购买[/button]
 [icon_list]
@@ -58,15 +58,15 @@
 
 <script>
 jQuery(document).ready(function(){
-	jQuery.getJSON("/json.php", function(json) {
-		jQuery('#vipStock').text(json.vipStock);
-		jQuery('#goldStock').text(json.goldStock);
-		jQuery('#silverStock').text(json.silverStock);
-		jQuery('#expoStock').text(json.expoStock);
-		jQuery('#goldCN').text(json.goldCN);
-		jQuery('#silverCN').text(json.silverCN);
-		jQuery('#expoCN').text(json.expoCN);
-		jQuery('.endCN').text(json.endCN);
+	jQuery.getJSON("http://www.gwcevents.com/api/service/getprice?id=130", function(json) {
+		jQuery('#vipStock').text(1000 - json.GmicTickets[0].Sold);
+		jQuery('#goldStock').text(3000 - json.GmicTickets[1].Sold);
+		jQuery('#silverStock').text(5000 - json.GmicTickets[2].Sold);
+		jQuery('#expoStock').text(20000 - json.GmicTickets[3].Sold);
+		jQuery('#goldCN').text(json.GmicTickets[1].CurrentPrice);
+		jQuery('#silverCN').text(json.GmicTickets[2].CurrentPrice);
+		jQuery('#expoCN').text(json.GmicTickets[3].CurrentPrice);
+		jQuery('.endCN').text(json.GmicTickets[0].ExpireDate);
 	});
 });
 </script>
