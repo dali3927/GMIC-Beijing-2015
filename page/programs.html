@@ -83,3 +83,15 @@
 </div>
 
 [responsive_text selector=".resp-h2" compression="1.35" min_size="36px" max_size="50px"]
+
+<script>
+var maxHeight = 0;
+jQuery(document).ready(function(){
+  jQuery(".x-promo-content").each(function() {
+    maxHeight = Math.max(maxHeight, jQuery(this).height());
+  });
+  jQuery(".x-promo-content").each(function() {
+    jQuery(this).height(maxHeight);
+  });
+});
+</script>
