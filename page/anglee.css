@@ -4,6 +4,11 @@ body, h1, h2, h3, h4 ,h5, h6 {
 .x-brand img {
 	width: 250px;
 }
+@media (max-width: 767px) {
+	.x-brand img {
+		width: 200px;
+	}
+}
 .clear {
 	clear: both;
 }
@@ -13,7 +18,7 @@ body, h1, h2, h3, h4 ,h5, h6 {
 	background: #000;
 	min-height: initial;
 }
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
 	.x-topbar {
 		display: none;
 	}
@@ -66,47 +71,47 @@ body.ticket .x-highlight {
 	background: red;
 }
 
-/* sponsor */
-body.sponsor .one-fourth {
+/* sponsor directory */
+body.sponsor-directory .col-md-3 {
 	float: left;
 	width: 25%;
 }
-body.sponsor .one-sixth {
+body.sponsor-directory .col-md-2 {
 	float: left;
 	width: 16.6%;
 }
 @media (max-width: 767px) {
-	body.sponsor .one-fourth {
+	body.sponsor-directory .col-xs-12 {
 		float: left;
 		width: 100%;
 	}
-	body.sponsor .one-sixth {
+	body.sponsor-directory .col-xs-6 {
 		float: left;
 		width: 50%;
 	}
-	body.sponsor .xs-clear {
+	body.sponsor-directory .xs-clear {
 		clear: both;
 	}
 }
 @media (min-width: 768px) and (max-width: 992px) {
-	body.sponsor .one-fourth {
+	body.sponsor-directory .col-sm-6 {
 		float: left;
 		width: 50%;
 	}
-	body.sponsor .one-sixth {
+	body.sponsor-directory .col-sm-4 {
 		float: left;
 		width: 33.3%;
 	}
-	body.sponsor .sm-clear {
+	body.sponsor-directory .sm-clear {
 		clear: both;
 	}
 }
-body.sponsor .one-fourth img, body.sponsor .one-sixth img {
+body.sponsor-directory .col img {
 	margin: 0 auto;
 	max-width: 90%;
 	display: block;
 }
-body.sponsor .sponsor-h {
+body.sponsor-directory .sponsor-h {
 	margin: 1.5em auto 1em;
 }
 
@@ -153,6 +158,9 @@ body.why-exhibit img.event {
 }
 
 /* Exhibitor Directory */
+.exhibitor-directory .entry-content {
+	margin-top: 0;
+}
 .exhibitor-directory .col-md-4 {
 	float: left;
 	width: 33.3%;
