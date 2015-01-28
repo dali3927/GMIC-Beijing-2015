@@ -1,3 +1,9 @@
+body, h1, h2, h3, h4 ,h5, h6 {
+	font-family: "Lato", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+}
+.x-brand img {
+	width: 250px;
+}
 .clear {
 	clear: both;
 }
@@ -39,6 +45,12 @@
 }
 
 /* homepage */
+body.home .x-counter {
+	font-size: 1.5em;
+}
+body.home .x-counter .number-wrap {
+	font-size: 1.5em;
+}
 body.home img.event {
 	width: 60%;
 }
@@ -124,4 +136,54 @@ body.sponsor .sponsor-h {
 .program .x-promo {
 	margin: 0 auto 2em;
 	max-width: 90%;
+}
+
+/* speaker */
+body.speaker img.event {
+	width: 80%;
+}
+.speaker ul.topic {
+	width: 40%;
+	float: left;
+}
+
+/* why-exhibit */
+body.why-exhibit img.event {
+	width: 60%;
+}
+
+/* Exhibitor Directory */
+.exhibitor-directory .col-md-4 {
+	float: left;
+	width: 33.3%;
+	height: 100px;
+	margin-bottom: 50px;
+}
+@media (max-width: 767px) {
+	.exhibitor-directory .col-xs-12 {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	.exhibitor-directory .col-sm-6 {
+		width: 50%;
+	}
+}
+.exhibitor-directory .img-container {
+	float: left;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	background: #FFF;
+}
+.exhibitor-directory .text-container {
+	height: 100px;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 10px;
+}
+.exhibitor-directory .img-container img {
+	max-width: 100%;
+	max-height: 100%;
 }
