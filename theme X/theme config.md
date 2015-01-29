@@ -37,7 +37,8 @@ Navbar Search	Off
 Topbar			On  
 Breadcrumbs		Off
 
-#####Footer
+#####Social
+Enable Open Graph	Off
 
 ###Revolution Slider
 Slider Layout: Full Screen
