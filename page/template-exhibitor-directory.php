@@ -21,8 +21,8 @@
     <?php while ( have_posts() ) : the_post(); ?>
 
       <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-<div class="x-container-fluid max width">
 <?php x_get_view( 'global', '_content', 'the-content' ); ?>
+<div class="x-container-fluid max width">
 <?php
 $url = 'http://www.webexpotec.com/mobile/JsonWebexpotecInterface.aspx';
 
