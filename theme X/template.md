@@ -24,10 +24,13 @@
 + [Prompt](http://theme.co/x/demo/integrity/1/shortcodes/prompt/)
 + [Responsive Lightbox](http://theme.co/x/demo/integrity/1/shortcodes/responsive-lightbox/)
 + [Responsive Pricing Table](http://theme.co/x/demo/integrity/1/shortcodes/responsive-pricing-table/)
-+ [Integrity]()
-+ [Integrity]()
-+ [Integrity]()
-+ [Integrity]()
++ [Responsive Slider](http://theme.co/x/demo/integrity/1/shortcodes/responsive-slider/)
++ [Responsive Text](http://theme.co/x/demo/integrity/1/shortcodes/responsive-text/)
++ [Responsive Video](http://theme.co/x/demo/integrity/1/shortcodes/responsive-video/)
++ [Responsive Visibility](http://theme.co/x/demo/integrity/1/shortcodes/responsive-visibility/)
++ [Skill Bar](http://theme.co/x/demo/integrity/1/shortcodes/skill-bar/)
++ [Tabbed Content](http://theme.co/x/demo/integrity/1/shortcodes/tabbed-content/)
++ [Table Of Contents](http://theme.co/x/demo/integrity/1/shortcodes/table-of-contents/)
 
 
 ### X theme interesting elements
