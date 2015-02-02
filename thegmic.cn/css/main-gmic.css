@@ -1,0 +1,95 @@
+html {background-image: none; background-color: #fff;}
+body {background: transparent url(../images/tile.gif) 0 0 repeat;}
+#wrapper {background: #212121 url(../images/gmic-main-title.png) center 25px no-repeat;}
+
+#header {margin: 0 auto; width: 960px; position: relative;}
+
+#logo-area {margin:0;}
+
+#logo-area #logo {padding:0;}
+
+#logo-area #logo span {display: block; background: transparent url(../images/gmic-main-title.png) center 0px no-repeat; width: 960px; height:0px; margin:0; overflow: hidden; padding-top: 189px;}
+
+#top-menu {position:absolute; right: 0px; top: -14px;}
+#top-menu li {background-color: #333; padding:2px 4px 2px 4px;}
+
+#main-area {background: transparent url(../images/content-bg.jpg) center 0 repeat-y; }
+#content-area {
+	padding: 4px 0 8px 0; 
+	-webkit-box-shadow: 0px -2px 12px rgba(0, 0, 0, 0.5); 
+	-moz-box-shadow: 0px -2px 12px rgba(0, 0, 0, 0.5); 
+	box-shadow: 0px -2px 12px rgba(0, 0, 0, 0.5); 
+}
+
+.post-content p.beijing {padding-top: 0;}
+.post-content p.beijing img {margin:0; }
+.post-content p.beijing {margin:0 5px 20px 5px;}
+.post-content p.silicon {margin: 0 5px 20px 5px;}
+
+.vertical .post-content p.silicon {margin: 0;}
+
+.post-content p.beijing a, .post-content p.silicon a {
+	display: block;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px; 
+	background: rgba(0, 0, 0, 1);
+}
+.post-content p.beijing a {float: right;height:126px;}
+
+.footer_wrap { background-color: #fff; padding-top:0; border-top: 1px solid #ccc;}
+#main_footer {width:960px; margin: 0 auto;background-image: none; text-align: center;}
+#main_footer .social-buttons {width:116px; margin: 0 auto; }
+
+table, table td {border: none;}
+
+/*---------------------[speaker slider homepage]-------------------*/
+	#speaker_slider.image_carousel {
+		background-image: none;
+		background-color: transparent;
+		-moz-box-shadow:    none;
+	    -webkit-box-shadow: none;
+	    box-shadow:         none;
+	    border-top: 0px solid #fff;
+	    padding: 0 0 28px 0;
+	}
+	#foo1 div {height: 150px;width: 160px;float: left;}
+		#foo1 li {height: 150px;width: 122px;float: left; display: block; margin-left: 0;}
+	#foo1 span {display: block;text-align:center; color: #999;}
+	#foo1 a {margin:0 auto; float: none; display:block; width: 90px; height: 90px; background: transparent url(images/keynote-speaker-icon_11.png) 0px -92px no-repeat; cursor: default;}
+		#speaker2 a {background-image: url(../images/keynote-speaker-icons_03.png);}
+		#speaker3 a {background-image: url(../images/keynote-speaker-icons_07.png);}
+		#speaker4 a {background-image: url(../images/keynote-speaker-icons_21.png);}
+		#speaker5 a {background-image: url(../images/keynote-speaker-icons_09.png);}
+		#speaker6 a {background-image: url(../images/keynote-speaker-icons_11.png);}
+		#speaker7 a {background-image: url(../images/keynote-speaker-icons_25.png);}
+		#speaker8 a {background-image: url(../images/keynote-speaker-icons_05.png);}
+		#speaker9 a {background-image: url(../images/keynote-speaker-icons_24.png);}
+		#speaker10 a {background-image: url(../images/keynote-speaker-icons_19.png);}
+		#speaker11 a {background-image: url(../images/keynote-speaker-icons_22.png);}
+		#speaker12 a {background-image: url(../images/keynote-speaker-icons_23.png);}
+		#speaker13 a {background-image: url(../images/keynote-speaker-icons_03_09.png);}
+		#speaker14 a {background-image: url(../images/keynote-speaker-icons_03_07.png);}
+		#speaker15 a {background-image: url(../images/keynote-speaker-icons_03_35.png);}
+		#speaker16 a {background-image: url(../images/keynote-speaker-icons_29_21.png);}
+		#speaker17 a {background-image: url(../images/keynote-speaker-icons_03_05.png);}
+		#speaker18 a {background-image: url(../images/keynote-speaker-icons_03_03.png);}
+		#speaker19 a {background-image: url(../images/keynote-speaker-icons_03_33.png);}
+		#speaker20 a {background-image: url(../images/keynote-speaker-icons_03_31.png);}
+	#foo1 a:hover {background-position: 0px -92px;}
+	#foo1 #speaker1 a {}
+	#speaker_slider.image_carousel p { /*color: #5a77b7;*/ color: #fff; margin: 0 auto 10px auto; padding-bottom: 0px;width: 150px; border-bottom: 0px solid #d7e0f3; font-size: 16px;text-align: center;  font-family: "HelveticaNeue57Condensed", "Helvetica Neue Condensed", "Helvetica", sans-serif;}
+.vertical {display:none;}
+
+@media only screen and ( max-width: 960px ) {
+#logo-area #logo span {background-image:none;width:100%}
+#mobile_nav {display:none;}
+header#header {width:100%}
+.post-content p.beijing a {height:91px;}
+#main_footer {width:100%}
+}
+@media only screen and ( max-width: 767px ) {
+	.vertical p.beijing a {height:auto;float:none;}
+.horizontal {display:none;}
+.vertical {display:block;}
+}
