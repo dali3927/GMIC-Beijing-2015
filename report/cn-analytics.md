@@ -1,17 +1,17 @@
 ###概览
-![Google Analytics](https://raw.githubusercontent.com/leeang/GWC/master/report/img/cn-overview.png)  
+![Google Analytics](https://raw.githubusercontent.com/leeang/GMIC/master/report/img/cn-overview.png)  
 根据Google Analytics统计数据，2013年1月1日至今，北京站简体中文版**92.1%**流量源于中国大陆，**96%以上**流量来自东亚地区。
 
 ###会期访问量
-![Google Analytics](https://raw.githubusercontent.com/leeang/GWC/master/report/img/cn-2014-gmic.png)  
-![Google Analytics](https://raw.githubusercontent.com/leeang/GWC/master/report/img/cn-2013-gmic.png)  
+![Google Analytics](https://raw.githubusercontent.com/leeang/GMIC/master/report/img/cn-2014-gmic.png)  
+![Google Analytics](https://raw.githubusercontent.com/leeang/GMIC/master/report/img/cn-2013-gmic.png)  
 2年时间内，共有30万次访问（以Session计）。2014年会议期间（会议召开前后各7天 4月28日至5月12日），产生7.3万次访问(**24%**)。2013年会议期间（会议召开前后各7天 4月30日至5月14日），产生5万次访问(**17%**)。两次会议期间（共4周）占两年访问量的**41%**。
 
 ###搜索引擎优化 SEO
-![全部流量来源](https://raw.githubusercontent.com/leeang/GWC/master/report/img/cn-all-traffic.png)  
+![全部流量来源](https://raw.githubusercontent.com/leeang/GMIC/master/report/img/cn-all-traffic.png)  
 31%流量来自**百度**，但网站**并未针对百度进行优化**。此外，Google Analytics中**未定义**360搜索、搜狗、神马等新兴本地化搜索引擎探针，因而无法获得统计数据。
 
-![百度搜索结果](https://raw.githubusercontent.com/leeang/GWC/master/report/img/baidu-gmic.png)  
+![百度搜索结果](https://raw.githubusercontent.com/leeang/GMIC/master/report/img/baidu-gmic.png)  
 百度搜索结果，页面最上方显示1至2条竞价排名。此后，首条显示百度百科（未被精心维护），次条显示网易专题报道，第三条显示官方网站，但因配图不当而易被忽略。
 
 搜索结果排名不佳，网站加载速度缓慢是主要原因，但在**搜索引擎合作**(免费)、网站设计等方面仍然有提升空间。
@@ -37,7 +37,7 @@
 
 #####使用国内服务器的优点
 ![百度官网认证](http://trust.baidu.com/vstar/views/fe/asset/css/img/official/show-gw.jpg)
-![朋友圈 ICP备案](https://raw.githubusercontent.com/leeang/GWC/master/report/img/wechat-ICP.png)
+![朋友圈 ICP备案](https://raw.githubusercontent.com/leeang/GMIC/master/report/img/wechat-ICP.png)
 
 + 中国大陆访问速度快
 + 获得ICP备案
@@ -48,10 +48,10 @@
 + 海外流量可以通过部署[Amazon CloudFront](http://aws.amazon.com/cn/cloudfront/)进行全球CDN加速
 
 ###移动搜索引擎优化
-![移动流量](https://raw.githubusercontent.com/leeang/GWC/master/report/img/cn-gmic-mobile.png)  
+![移动流量](https://raw.githubusercontent.com/leeang/GMIC/master/report/img/cn-gmic-mobile.png)  
 全球**移动**互联网大会官网只有**6.6%**流量来自移动端。**WHY?**
 
-![百度移动端流量贡献](https://raw.githubusercontent.com/leeang/GWC/master/report/img/cn-gmic-baidu-mobile.png)  
+![百度移动端流量贡献](https://raw.githubusercontent.com/leeang/GMIC/master/report/img/cn-gmic-baidu-mobile.png)  
 网站全部流量的31%来源于百度，但百度对移动端（手机+平板）只贡献了其中的**2.4%**。百度移动搜索(m.baidu.com)只引入全部流量的2.4% × 31% = **0.7%**。
 
 现有网站未对移动搜索引擎进行优化。
