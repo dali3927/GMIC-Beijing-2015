@@ -1,0 +1,72 @@
+[pricing_table columns="4"]
+[pricing_table_column title="VIP Pass" currency="$" price="2,500"]
+[icon_list]
+[icon_list_item type="rmb"]Special Price <strong> - </strong>[/icon_list_item]
+[icon_list_item type="rocket"]<strong id="vipStock"></strong><!--  / 1000 --> Tickets Left[/icon_list_item]
+[/icon_list]
+[button type="flat" shape="rounded" href="http://beijing.gwcevents.com/en-us/Home/RegisterEventHome/131"][icon type="shopping-cart"]Register Now[/button]
+[icon_list]
+[icon_list_item type="check"]VIP Lounge Access[/icon_list_item]
+[icon_list_item type="check"]VIP Lunches[/icon_list_item]
+[icon_list_item type="check"]VIP Welcome Dinner[/icon_list_item]
+[icon_list_item type="check"]Includes Gold Pass Access[/icon_list_item]
+[/icon_list]
+Discount available until <strong class="endCN"></strong>
+[/pricing_table_column]
+
+[pricing_table_column title="Gold Pass" currency="$" price="1,500"]
+[icon_list]
+[icon_list_item type="rmb"]Special Price <mark class="x-highlight" id="goldCN"></mark>[/icon_list_item]
+[icon_list_item type="rocket"]<strong id="goldStock"></strong><!--  / 3000 --> Tickets Left[/icon_list_item]
+[/icon_list]
+[button type="flat" shape="rounded" href="http://beijing.gwcevents.com/en-us/Home/RegisterEventHome/131"][icon type="shopping-cart"]Register Now[/button]
+[icon_list]
+[icon_list_item type="check"]Access to All Tracks including the Thought Leaders[/icon_list_item]
+[icon_list_item type="check"]Exclusive Networking Events, like the GMIC After Party[/icon_list_item]
+[icon_list_item type="check"]Networking through the GMIC app[/icon_list_item]
+[icon_list_item type="check"]Includes Silver Pass Benefits[/icon_list_item]
+[/icon_list]
+Discount available until <strong class="endCN"></strong>
+[/pricing_table_column]
+
+[pricing_table_column title="Silver Pass" currency="$" price="450"]
+[icon_list]
+[icon_list_item type="rmb"]Special Price <mark class="x-highlight" id="silverCN"></mark>[/icon_list_item]
+[icon_list_item type="rocket"]<strong id="silverStock"></strong><!--  / 5000 --> Tickets Left[/icon_list_item]
+[/icon_list]
+[button type="flat" shape="rounded" href="http://beijing.gwcevents.com/en-us/Home/RegisterEventHome/131"][icon type="shopping-cart"]Register Now[/button]
+[icon_list]
+[icon_list_item type="check"]Access to Global Game Summit, appSpace, G-Startup, and more Tracks/icon_list_item]
+[icon_list_item type="check"]Includes Expo Pass Benefits[/icon_list_item]
+[icon_list_item type="times" style="color: red;"]Not Including Thought Leader[/icon_list_item]
+[/icon_list]
+Discount available until<strong class="endCN"></strong>
+[/pricing_table_column]
+
+[pricing_table_column title="Expo Pass" currency="$" price="30"]
+[icon_list]
+[icon_list_item type="rmb"]Special price <mark class="x-highlight" id="expoCN"></mark>[/icon_list_item]
+[icon_list_item type="rocket"]<strong id="expoStock"></strong><!--  / 20000 --> Tickets Left[/icon_list_item]
+[/icon_list]
+[button type="flat" shape="rounded" href="http://beijing.gwcevents.com/en-us/Home/RegisterEventHome/131"][icon type="shopping-cart"]Register Now[/button]
+[icon_list]
+[icon_list_item type="check"]Interact with +100’s of Exhibitors[/icon_list_item]
+[/icon_list]
+Discount available until <strong class="endCN"></strong>
+[/pricing_table_column]
+[/pricing_table]
+
+<script>
+jQuery(document).ready(function(){
+	jQuery.getJSON("http://www.gwcevents.com/api/service/getprice?id=131", function(json) {
+		jQuery('#vipStock').text(1000 - json.GmicTickets[0].Sold);
+		jQuery('#goldStock').text(3000 - json.GmicTickets[1].Sold);
+		jQuery('#silverStock').text(5000 - json.GmicTickets[2].Sold);
+		jQuery('#expoStock').text(20000 - json.GmicTickets[3].Sold);
+		jQuery('#goldCN').text(json.GmicTickets[1].CurrentPrice);
+		jQuery('#silverCN').text(json.GmicTickets[2].CurrentPrice);
+		jQuery('#expoCN').text(json.GmicTickets[3].CurrentPrice);
+		jQuery('.endCN').text(json.GmicTickets[0].ExpireDate);
+	});
+});
+</script>
