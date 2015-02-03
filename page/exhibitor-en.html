@@ -1,0 +1,53 @@
+[content_band no_margin="true" inner_container="true" bg_color="transparent" border="none"]
+[custom_headline class="resp-h resp-h2 mvn" type="center" level="h2" accent="true"]Exhibitor[/custom_headline]
+[/content_band]
+
+<div class="x-container-fluid max width program">
+<div class="col-md-3 col-sm-6 col-xs-12">
+<div class="x-promo">
+<div class="x-promo-image-wrap"><img src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/575/why.jpg"></div>
+<div class="x-promo-content">
+<p class="center-text">[button type="flat" shape="rounded" href="/why-exhibit/"][icon type="bookmark"]Why GMIC?[/button]</p>
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12">
+<div class="x-promo">
+<div class="x-promo-image-wrap"><img src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/575/plan.jpg"></div>
+<div class="x-promo-content">
+<p class="center-text">[button type="flat" shape="rounded" href="/exhibitor-directory/"][icon type="bookmark"]Exhibitor Directory[/button]</p>
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12">
+<div class="x-promo">
+<div class="x-promo-image-wrap"><img src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/575/join.jpg"></div>
+<div class="x-promo-content">
+<p class="center-text">[button type="flat" shape="rounded" href="/exhibition-inquiry/"][icon type="bookmark"]exhibition/Sponsorship inquiry[/button]</p>
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-6 col-xs-12">
+<div class="x-promo">
+<div class="x-promo-image-wrap"><img src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/575/who.jpg"></div>
+<div class="x-promo-content">
+<p class="center-text">[button type="flat" shape="rounded" href="/sponsor-directory-2014/"][icon type="bookmark"]2014 Sponsors[/button]</p>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+
+[responsive_text selector=".resp-h2" compression="1.35" min_size="36px" max_size="50px"]
+
+<script>
+var maxHeight = 0;
+jQuery(document).ready(function(){
+  jQuery(".x-promo-content").each(function() {
+    maxHeight = Math.max(maxHeight, jQuery(this).height());
+  });
+  jQuery(".x-promo-content").each(function() {
+    jQuery(this).height(maxHeight);
+  });
+});
+</script>
