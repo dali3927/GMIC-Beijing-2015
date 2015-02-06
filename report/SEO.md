@@ -12,3 +12,6 @@
 
 #####百度搜索“移动互联网大会” 第一
 ![百度搜索 移动互联网大会](https://raw.githubusercontent.com/leeang/GMIC/master/report/img/GMIC-cn-1-Baidu.png)
+
+#####Google搜索“移动互联网大会” 第一
+![Google搜索 移动互联网大会](https://raw.githubusercontent.com/leeang/GMIC/master/report/img/GMIC-cn-1-Google.png)
