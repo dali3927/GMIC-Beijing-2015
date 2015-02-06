@@ -12,7 +12,7 @@
 
 页面打开速度是搜索引擎优化的重中之重。通过采用一系列技术手段，网站访问速度得到显著提升。根据百度“网站速度诊断”分析结果：页面打开时间2.79秒，评分90分。（GMIC Beijing 2014 数据：打开时间 60.01秒，评分38分。）
 
-此外，向[百度站长平台](http://zhanzhang.baidu.com/)、[Google 网站站长](http://www.google.com/webmasters/)、[必应网站管理员工具](http://www.bing.com/toolbox/webmaster)、[搜狗站长平台](http://zhanzhang.sogou.com/)提交Sitemap、[神马开放平台](http://open.sm.cn/)、[好搜站长平台](http://zhanzhang.haosou.com/)提交Sitemap站点地图。网站每次发生更新后，会生成包含时间戳的Sitemap，能够更加合理地吸引搜索引擎抓取更新。
+此外，向[百度站长平台](http://zhanzhang.baidu.com/)、[Google 网站站长](http://www.google.com/webmasters/)、[必应网站管理员工具](http://www.bing.com/toolbox/webmaster)、[搜狗站长平台](http://zhanzhang.sogou.com/)、[神马开放平台](http://open.sm.cn/)、[好搜站长平台](http://zhanzhang.haosou.com/)提交Sitemap（站点地图）。网站每次发生更新后，会生成包含时间戳的Sitemap，能够更加合理地吸引搜索引擎抓取更新。
 
 外链方面，在个人网站 翡翠粤语歌词[http://feitsui.com]（2014年共计226万浏览量）页脚添加“GMIC 全球移动互联网”链接，吸引搜索引擎爬虫抓取beijing.thegmic.cn中文版新网站。
 
