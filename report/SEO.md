@@ -1,3 +1,6 @@
+> Author: Ang Li  
+> Blog: [angli.me](http://angli.me/)  
+
 ###搜索引擎优化措施
 
 + 服务器合理部署（位置、操作系统、架构）
