@@ -1,16 +1,12 @@
 ###Google Font
-#####/framework/css/admin/global.css
-@import url(//fonts.googleapis.com/css?family=Lato:300&text=X);
 
 #####/wp-content/themes/x/framework/functions/global/enqueue/styles.php
 
-$get_custom_font_family   = add_query_arg( $custom_font_args,   '//fonts.googleapis.com/css' );  
-$get_standard_font_family = add_query_arg( $standard_font_args, '//fonts.googleapis.com/css' );  
-fonts.useso.com
-
+replace  
 wp_enqueue_style( 'x-font-standard', $get_standard_font_family, NULL, NULL, 'all' );  
 wp_enqueue_style( 'x-font-standard', 'http://7u2l46.com5.z0.glb.qiniucdn.com/2015/lato.css', NULL, NULL, 'all' );
 
+new  
 wp_enqueue_style( 'anglee', '/anglee.css', NULL, NULL, 'all' );
 
 #####/wp-content/themes/x/framework/views/global/_header-widget-areas.php
