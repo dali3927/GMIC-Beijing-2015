@@ -21,9 +21,19 @@ body, h1, h2, h3, h4 ,h5, h6 {
 	background: #000;
 	min-height: initial;
 }
+.x-topbar .language {
+	margin-left: 30px;
+}
 @media (max-width: 767px) {
-	.x-topbar {
+	.x-topbar .hidden-link, .x-topbar .x-social-global {
 		display: none;
+	}
+	.x-topbar .language {
+		margin: 0;
+	}
+	.x-topbar .p-info {
+		padding: 0;
+		background: none;
 	}
 }
 .x-topbar .p-info {
@@ -37,10 +47,6 @@ body, h1, h2, h3, h4 ,h5, h6 {
 }
 .x-topbar p.p-info a:hover {
 	color: #999 !important;
-}
-.x-topbar p.p-info .language {
-	margin-left: 20px;
-	font-family: "Microsoft YaHei", "Segoe UI", Tahoma, Arial, Verdana, sans-serif;
 }
 .x-topbar .x-social-global {
 	margin-top: 8px;
@@ -68,6 +74,9 @@ body.home .x-brand, .resp-h {
 body.home .appraise {
 	background: rgba(0, 0, 0, 0.5);
 }
+body.home .resp-p-media {
+	color: #FFF;
+}
 
 /* ticket */
 body.ticket .x-highlight {
@@ -75,47 +84,52 @@ body.ticket .x-highlight {
 }
 
 /* sponsor directory */
-body.sponsor-directory .col-md-3 {
+.sponsor-directory .col-md-3 {
 	float: left;
 	width: 25%;
+	margin-bottom: 1em;
 }
-body.sponsor-directory .col-md-2 {
+.sponsor-directory .col-md-2 {
 	float: left;
 	width: 16.6%;
 }
 @media (max-width: 767px) {
-	body.sponsor-directory .col-xs-12 {
-		float: left;
+	.sponsor-directory .col-xs-12 {
+		float: none;
 		width: 100%;
 	}
-	body.sponsor-directory .col-xs-6 {
+	.sponsor-directory .col-xs-6 {
 		float: left;
 		width: 50%;
 	}
-	body.sponsor-directory .xs-clear {
+	.sponsor-directory .xs-clear {
 		clear: both;
 	}
 }
 @media (min-width: 768px) and (max-width: 992px) {
-	body.sponsor-directory .col-sm-6 {
+	.sponsor-directory .col-sm-6 {
 		float: left;
 		width: 50%;
 	}
-	body.sponsor-directory .col-sm-4 {
+	.sponsor-directory .col-sm-4 {
 		float: left;
 		width: 33.3%;
 	}
-	body.sponsor-directory .sm-clear {
+	.sponsor-directory .sm-clear {
 		clear: both;
 	}
 }
-body.sponsor-directory .col img {
+.sponsor-directory .col img {
 	margin: 0 auto;
 	max-width: 90%;
 	display: block;
 }
-body.sponsor-directory .sponsor-h {
+.sponsor-directory .sponsor-h {
 	margin: 1.5em auto 1em;
+}
+
+body.home .sponsor-directory {
+	padding: 2em;
 }
 
 /* program */
