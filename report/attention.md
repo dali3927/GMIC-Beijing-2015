@@ -20,7 +20,9 @@ beijing.thegmic.cn 全部页面通过阿里云CDN分发，缓存时间5分钟。
 推荐使用不同文件名，以绕过缓存机制，保证文件100%被替换。
 
 #####七牛云(2) WordPress资源
-beijing.thegmic.cn/wp-content/ , beijing.thegmic.cn/wp-includes/ 目录下全部文件会被缓存在七牛云“gmic2015”空间中。当源文件更新时，需要通过管理后台删除七牛云中的镜像文件。待七牛CDN过期后，会自动重新获取源文件。
+beijing.thegmic.cn/wp-content/ , beijing.thegmic.cn/wp-includes/ 目录下全部文件会被缓存在七牛云“**gmic2015**”空间中。当源文件更新时，需要通过管理后台删除七牛云中的镜像文件。待七牛CDN过期后，会自动重新获取源文件。
+
+beijing.thegmic.com/wp-content/ , beijing.thegmic.com/wp-includes/ 目录下全部文件会被缓存在七牛云“**gmic2015en**”空间中。当源文件更新时，需要通过管理后台删除七牛云中的镜像文件。待七牛CDN过期后，会自动重新获取源文件。
 
 推荐在文件名后加参数以实现强制更新。
 
