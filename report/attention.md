@@ -28,3 +28,10 @@ beijing.thegmic.com/wp-content/ , beijing.thegmic.com/wp-includes/ 目录下全�
 
 + [http://7q5bmq.com5.z0.glb.clouddn.com/yygeci/img/weixinQR129.png?v1](http://7q5bmq.com5.z0.glb.clouddn.com/yygeci/img/weixinQR129.png?v1)
 + [http://7q5bmq.com5.z0.glb.clouddn.com/yygeci/img/weixinQR129.png?v2](http://7q5bmq.com5.z0.glb.clouddn.com/yygeci/img/weixinQR129.png?v2)
+
+###域名解析
+#####thegmic.com Name Server
+ns-141.awsdns-17.com
+ns-809.awsdns-37.net
+ns-1094.awsdns-08.org
+ns-2027.awsdns-61.co.uk
