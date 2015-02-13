@@ -22,11 +22,12 @@ http://7u2l46.com5.z0.glb.qiniucdn.com/2015/logo.png
 ###Customise
 
 #####Typography
-Site Links		3258a8
+Site Links		3cb034  
+Hover Colors	3258a8
 
 #####Button
-Colors			3258a8  
-Hover Colors	1e73be
+Colors			3cb034  
+Hover Colors	3258a8
 
 #####Header
 Navbar Search	Off  
