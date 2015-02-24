@@ -2,12 +2,7 @@ body, h1, h2, h3, h4 ,h5, h6 {
 	font-family: "Lato", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
 }
 .x-brand img {
-	width: 250px;
-}
-@media (max-width: 767px) {
-	.x-brand img {
-		width: 200px;
-	}
+	width: 170px;
 }
 .x-navbar .desktop ul li a span {
 	font-size: 15px;
