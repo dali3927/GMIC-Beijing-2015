@@ -232,3 +232,14 @@ body.why-exhibit img.event {
 		clear: both;
 	}
 }
+.speaker-slider {
+	position: relative;
+	overflow: auto;
+}
+.speaker-slider ul {
+	margin: 0;
+}
+.speaker-slider ul li {
+	list-style: none;
+	float: left;
+}
