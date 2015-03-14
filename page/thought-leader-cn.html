@@ -1,0 +1,37 @@
+[vc_row padding_top="0px" padding_bottom="0px" border="none"][vc_column width="1/1"][custom_headline type="center" level="h2" looks_like="h2" accent="true" class="resp-h mvn"]<b>领袖峰会</b>[/custom_headline][/vc_column][/vc_row][vc_row no_margin="true" padding_top="0px" padding_bottom="0px" border="none"][vc_column width="1/1"][image type="none" float="none" info="none" info_place="top" info_trigger="hover" src="418"][/vc_column][/vc_row][vc_row no_margin="true" padding_top="0px" padding_bottom="0px" border="none"][vc_column width="1/1"][text_output]
+<strong>主题：全球移动互联网产业热点集聚平台、前沿话题交锋阵地</strong>
+<strong>开始时间</strong>：<span id="BeginTime"></span>
+<strong>结束时间</strong>：<span id="EndTime"></span>
+<strong>地点</strong>：<span id="SiteCn"></span>
+
+<strong>峰会简介：</strong>
+领袖峰会是全球移动互联网大会的主会场，拥有最重磅的演讲嘉宾，探讨交流最新、最热的行业话题。值得关注的是，今年不少演讲嘉宾将在此发布公司的新战略以及新产品，与会者将获得深度的行业资讯及商务合作信息。
+大会的演讲话题将覆盖移动互联网最热的领域，包括：
+<ul>
+	<li>机器人及人工智能领域</li>
+	<li>物联网（IOT）</li>
+	<li>云计算与大数据</li>
+	<li>产业互联网话题（包括移动健康医疗、移动汽车、移动教育、移动金融、O2O等）</li>
+</ul>
+<strong>峰会亮点：</strong>
+<ul>
+	<li>三家以上的国际公司确认在领袖峰会上发布年度重磅级新品；</li>
+	<li>至少10位机器人专家到场演讲＋产品展示；</li>
+	<li>5家印度公司本土最火的公司参加领袖峰会；</li>
+	<li>包括美国、日本、印度、以色列等地的公司CEO代表，将与会交流。</li>
+</ul>
+<b>联系方式</b>：Ricky.lee@gwc.net[/text_output][/vc_column][/vc_row]
+
+<div class="center-text speaker-avatar" id="speakers-div"></div>
+
+<script>
+var SeminarID = 1433;
+jQuery(document).ready(function(){
+	jQuery.getJSON('http://beijing.thegmic.cn/api/ajax-seminar.php?SeminarID=' + SeminarID, function(json) {
+		jQuery('#BeginTime').text(json.BeginTime);
+		jQuery('#EndTime').text(json.EndTime);
+		jQuery('#SiteCn').text(json.SiteCn);
+		// jQuery('#speakers-div').html(json.speakers);
+	});
+});
+</script>
