@@ -6,6 +6,8 @@
 <strong>结束时间</strong>：<span id="EndTime"></span>
 <strong>地点</strong>：<span id="SiteCn"></span>
 
+<div id="agenda-div"></div>
+
 <strong>峰会简介：</strong>
 领袖峰会是全球移动互联网大会的主会场，拥有最重磅的演讲嘉宾，探讨交流最新、最热的行业话题。值得关注的是，今年不少演讲嘉宾将在此发布公司的新战略以及新产品，与会者将获得深度的行业资讯及商务合作信息。
 大会的演讲话题将覆盖移动互联网最热的领域，包括：
@@ -34,6 +36,7 @@ jQuery(document).ready(function(){
 		jQuery('#BeginTime').text(json.BeginTime);
 		jQuery('#EndTime').text(json.EndTime);
 		jQuery('#SiteCn').text(json.SiteCn);
+		jQuery('#agenda-div').html(json.agenda);
 		// jQuery('#speakers-div').html(json.speakers);
 	});
 });
