@@ -2,6 +2,9 @@ body, h1, h2, h3, h4 ,h5, h6 {
 	font-family: "Lato", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
 }
 h2 a {
+	color: #3258a8;
+}
+h2 a:hover {
 	color: #3cb034;
 }
 .clear {

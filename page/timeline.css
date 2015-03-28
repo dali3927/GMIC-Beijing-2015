@@ -389,10 +389,10 @@
   margin-right: 1em;
   overflow: hidden;
 }
-.cd-timeline-speaker .speaker-avatar {
+.cd-timeline-speaker .avatar {
   text-align: center;
 }
-.cd-timeline-speaker .speaker-avatar img {
+.cd-timeline-speaker .avatar img {
   width: 90px;
   height: 90px;
   border-radius: 10%;
@@ -410,11 +410,11 @@
   margin-left: 10px;
 }
 @media (min-width: 600px) {
-  .cd-timeline-speaker .speaker-avatar {
+  .cd-timeline-speaker .avatar {
     float: left;
     margin-right: 0.5em;
   }
-  .cd-timeline-speaker .speaker-avatar img {
+  .cd-timeline-speaker .avatar img {
     width: 75px;
     height: 75px;
   }
