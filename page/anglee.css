@@ -1,11 +1,8 @@
 body, h1, h2, h3, h4 ,h5, h6 {
 	font-family: "Lato", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
 }
-.x-brand img {
-	width: 170px;
-}
-.x-navbar .desktop ul li a span {
-	font-size: 15px;
+h2 a {
+	color: #3cb034;
 }
 .clear {
 	clear: both;
@@ -51,6 +48,14 @@ body, h1, h2, h3, h4 ,h5, h6 {
 }
 .x-topbar .x-social-global a:hover {
 	color: #999;
+}
+
+/* navbar */
+.x-navbar .x-brand img {
+	width: 170px;
+}
+.x-navbar .desktop ul li a span {
+	font-size: 15px;
 }
 
 /* homepage */
@@ -242,4 +247,9 @@ body.why-exhibit img.event {
 .speaker-slider ul li {
 	list-style: none;
 	float: left;
+}
+
+/* GMIC Global Locations */
+.global-logo {
+	margin-bottom: 1em;
 }
