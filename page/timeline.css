@@ -14,7 +14,7 @@
   width: 4px;
   background: #d7e4ed;
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 992px) {
   #cd-timeline {
     margin-top: 3em;
     margin-bottom: 3em;
@@ -40,7 +40,7 @@
 .cd-timeline-block:last-child {
   margin-bottom: 0;
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 992px) {
   .cd-timeline-block {
     margin: 4em 0;
   }
@@ -80,7 +80,7 @@
 .cd-timeline-img.cd-location {
   background: #f0ca45;
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 992px) {
   .cd-timeline-img {
     width: 60px;
     height: 60px;
@@ -161,9 +161,10 @@
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: #EEE;
+  background: white;
   border-radius: 0.25em;
   padding: 1em;
+  box-shadow: 0 3px 0 #d7e4ed;
 }
 .cd-timeline-content:after {
   content: "";
@@ -172,10 +173,6 @@
 }
 .cd-timeline-content h2 {
   color: #303e49;
-}
-.cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-  font-size: 13px;
-  font-size: 0.8125rem;
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
@@ -209,21 +206,7 @@
   border: 7px solid transparent;
   border-right: 7px solid white;
 }
-@media only screen and (min-width: 768px) {
-  .cd-timeline-content h2 {
-    font-size: 20px;
-    font-size: 1.25rem;
-  }
-  .cd-timeline-content p {
-    font-size: 16px;
-    font-size: 1rem;
-  }
-  .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-    font-size: 14px;
-    font-size: 0.875rem;
-  }
-}
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 992px) {
   .cd-timeline-content {
     margin-left: 0;
     padding: 1.6em;
@@ -243,8 +226,6 @@
     width: 100%;
     left: 122%;
     top: 6px;
-    font-size: 16px;
-    font-size: 1rem;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
@@ -275,7 +256,7 @@
   }
 }
 
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 992px) {
   /* inverse bounce effect on even content blocks */
   .cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
     -webkit-animation: cd-bounce-2-inverse 0.6s;
@@ -395,5 +376,58 @@
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0);
+  }
+}
+
+.cd-timeline-content h2 {
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+.cd-timeline-speaker {
+  margin-bottom: 0.5em;
+  margin-right: 1em;
+  overflow: hidden;
+}
+.cd-timeline-speaker .speaker-avatar {
+  text-align: center;
+}
+.cd-timeline-speaker .speaker-avatar img {
+  width: 90px;
+  height: 90px;
+  border-radius: 10%;
+}
+.cd-timeline-speaker .speaker-info {
+  text-align: center;
+}
+.cd-timeline-img {
+  background: #3cb034;
+}
+.cd-timeline-img {
+  width: 20px;
+  height: 20px;
+  margin-top: 13px;
+  margin-left: 10px;
+}
+@media (min-width: 600px) {
+  .cd-timeline-speaker .speaker-avatar {
+    float: left;
+    margin-right: 0.5em;
+  }
+  .cd-timeline-speaker .speaker-avatar img {
+    width: 75px;
+    height: 75px;
+  }
+  .cd-timeline-speaker .speaker-info {
+    float: left;
+    text-align: left;
+  }
+}
+@media (min-width: 992px) {
+  .cd-timeline-img {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: -15px;
   }
 }
