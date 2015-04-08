@@ -229,12 +229,20 @@ body.why-exhibit img.event {
 		margin: 0 auto 1em;
 		max-width: 300px;
 	}
+	.speaker-avatar .col-xs-12 img {
+		width: 160px;
+		height: 160px;
+	}
 }
 @media (min-width: 768px) and (max-width: 992px) {
 	.speaker-avatar .col-sm-4 {
 		float: left;
 		width: 30.3%;
 		margin: 0 1.5% 1em;
+	}
+	.speaker-avatar .col-sm-4 img {
+		width: 160px;
+		height: 160px;
 	}
 	.speaker-avatar .sm-clear {
 		clear: both;
@@ -255,4 +263,15 @@ body.why-exhibit img.event {
 /* GMIC Global Locations */
 .global-logo {
 	margin-bottom: 1em;
+}
+
+/* Timetable */
+@media (max-width: 767px) {
+	.agendaTable tr {
+		border-top: 1px solid #ddd;
+	}
+	.agendaTable td {
+		display: block;
+		border-top: none;
+	}
 }
