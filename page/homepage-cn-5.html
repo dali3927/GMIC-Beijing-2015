@@ -69,8 +69,8 @@ CEO
 CMGE中国手游</div>
 <div class="col col-md-2 col-sm-4"><img class="x-img center-block x-img-thumbnail" src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/speaker/yuyongfu.jpg" alt="俞永福" />
 <b>俞永福</b>
-CEO
-UC优视</div>
+总裁
+阿里巴巴移动事业群</div>
 <div class="clear"></div>
 <div class="col col-md-2 col-sm-4"><img class="x-img center-block x-img-thumbnail" src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/speaker/gongyu.png" alt="龚宇" />
 <b>龚宇</b>
@@ -101,7 +101,7 @@ CEO
 [/visibility]
 [visibility type="visible-phone"]
 <script src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/unslider.min.js"></script>
-<div class="speaker-slider">
+<div class="slider" id="speaker-slider">
 <ul>
 <li>
 <div class="col col-xs-12"><img class="x-img center-block x-img-thumbnail" src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/speaker/SteveMollenkopf.jpg" alt="Steve Mollenkopf" />
@@ -162,8 +162,8 @@ CEO
 CMGE中国手游</div>
 <div class="col col-xs-12"><img class="x-img center-block x-img-thumbnail" src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/speaker/yuyongfu.jpg" alt="俞永福" />
 <b>俞永福</b>
-CEO
-UC优视</div>
+总裁
+阿里巴巴移动事业群</div>
 </li>
 <li>
 <div class="col col-xs-12"><img class="x-img center-block x-img-thumbnail" src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/speaker/gongyu.png" alt="龚宇" />
@@ -340,6 +340,17 @@ CONNIE CHAN, PARTNER AT ANDREESSEN HOROWITZ</p>
 [/container]
 [/content_band]
 
+<div class="x-content-band man">
+<div class="x-container-fluid max width program">
+<div class="slider" id="brand-slider">
+<ul>
+<li><a href="/qualcomm-innovation-day/" target="_blank"><img src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/banner/qualcomm-0416.jpg" alt="Qualcomm" /></a></li>
+<li><a href="/mobile-internet-talent-summit/" target="_blank"><img src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/banner/lagou.png" alt="拉勾网" /></a></li>
+</ul>
+</div>
+</div>
+</div>
+
 [content_band no_margin="true" inner_container="true" bg_color="#fff" border="vertical"]
 [custom_headline class="resp-h mvn" type="center" level="h2" accent="true"]GMIC 北京 2014 数据统计[/custom_headline]
 [/content_band]
@@ -464,12 +475,13 @@ CONNIE CHAN, PARTNER AT ANDREESSEN HOROWITZ</p>
 <script>
 var maxHeight = 0;
 jQuery(document).ready(function(){
-  jQuery(".x-promo-content").each(function() {
-    maxHeight = Math.max(maxHeight, jQuery(this).height());
-  });
-  jQuery(".x-promo-content").each(function() {
-    jQuery(this).height(maxHeight);
-  });
-  jQuery('.speaker-slider').unslider();
+	jQuery(".x-promo-content").each(function() {
+		maxHeight = Math.max(maxHeight, jQuery(this).height());
+	});
+	jQuery(".x-promo-content").each(function() {
+		jQuery(this).height(maxHeight);
+	});
+	jQuery('#speaker-slider').unslider();
+	jQuery('#brand-slider').unslider({dots: true});
 });
 </script>
