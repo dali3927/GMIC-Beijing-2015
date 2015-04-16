@@ -5,7 +5,7 @@
 <p class="resp-p-media" style="color: white;">Mobile is extending far beyond the smartphone into all aspects of our lives. It continues to innovate and change forms from phones to tablets, clothing, cars, smart TVs to robots. Our devices are learning about us and talking amongst themselves to reshape the mobile industry. Join over 25,000 mobile industry executives, entrepreneurs, developers and investors from 60+ countries at the Global Mobile Internet Conference (GMIC) Beijing 2015.</p>
 <p class="resp-p-media" style="color: white;">China National Convention Center, Beijing | April 28-30, 2015</p>
 [visibility type="hidden-phone"]
-[button type="flat" shape="rounded" href="http://beijing.gwcevents.com/en-us/Event/Login/131"]Register Now[/button]
+[button type="flat" shape="rounded" href="http://beijing.gwcevents.com/en-us/Event/Login/131" target="blank"]Register Now[/button]
 [/visibility]
 [visibility type="visible-phone"]
 <div class="center-text">[button type="flat" shape="rounded" href="http://beijing.gwcevents.com/en-us/Event/Login/131"]Register Now[/button]</div>
@@ -101,7 +101,7 @@ Tianler</div>
 [/visibility]
 [visibility type="visible-phone"]
 <script src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/unslider.min.js"></script>
-<div class="speaker-slider">
+<div class="slider" id="speaker-slider">
 <ul>
 <li>
 <div class="col col-xs-12"><img class="x-img center-block x-img-thumbnail" src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/speaker/SteveMollenkopf.jpg" alt="Steve Mollenkopf" />
@@ -467,12 +467,12 @@ November, 2015
 <script>
 var maxHeight = 0;
 jQuery(document).ready(function(){
-  jQuery(".x-promo-content").each(function() {
-    maxHeight = Math.max(maxHeight, jQuery(this).height());
-  });
-  jQuery(".x-promo-content").each(function() {
-    jQuery(this).height(maxHeight);
-  });
-  jQuery('.speaker-slider').unslider();
+	jQuery(".x-promo-content").each(function() {
+		maxHeight = Math.max(maxHeight, jQuery(this).height());
+	});
+	jQuery(".x-promo-content").each(function() {
+		jQuery(this).height(maxHeight);
+	});
+	jQuery('#speaker-slider').unslider();
 });
 </script>
