@@ -5,7 +5,7 @@
 <p class="resp-p-media" style="color: white;">Mobile is extending far beyond the smartphone into all aspects of our lives. It continues to innovate and change forms from phones to tablets, clothing, cars, smart TVs to robots. Our devices are learning about us and talking amongst themselves to reshape the mobile industry. Join over 25,000 mobile industry executives, entrepreneurs, developers and investors from 60+ countries at the Global Mobile Internet Conference (GMIC) Beijing 2015.</p>
 <p class="resp-p-media" style="color: white;">China National Convention Center, Beijing | April 28-30, 2015</p>
 [visibility type="hidden-phone"]
-[button type="flat" shape="rounded" href="http://beijing.gwcevents.com/en-us/Event/Login/131" target="blank" style="margin-right: 10px;"]Register Now[/button] [button target="blank" type="flat" shape="rounded" href="/gmic-app/" class="ios-app"]GMIC APP[/button]
+[button type="flat" shape="rounded" href="http://beijing.gwcevents.com/en-us/Event/Login/131" target="blank" style="margin-right: 10px;"]Register Now[/button] [button target="blank" type="flat" shape="rounded" href="/gmic-app/" class="ios-app"]GMIC APP[/button] [button type="flat" shape="rounded" href="http://beijing.thegmic.cn/" class="lang-button" style="margin-left: 10px;"]中文版[/button]
 [/visibility]
 [visibility type="visible-phone"]
 <div class="center-text">[button type="flat" shape="rounded" href="http://beijing.gwcevents.com/en-us/Event/Login/131" target="blank"]Register Now[/button]</div>
@@ -80,7 +80,7 @@ iQIYI</div>
 <div class="col col-md-2 col-sm-4"><img class="x-img center-block x-img-thumbnail" src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/speaker/fanzhiming.jpg" alt="Fan Zhiming" />
 <b>Fan Zhiming</b>
 President
-Alipay</div>
+Domestic Business Division, Ant Financial Services Group</div>
 <div class="col col-md-2 col-sm-4"><img class="x-img center-block x-img-thumbnail" src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/speaker/sonny-vu.jpg" alt="Sonny Vu" />
 <b>Sonny Vu</b>
 CEO
@@ -174,7 +174,7 @@ iQIYI</div>
 <div class="col col-xs-12"><img class="x-img center-block x-img-thumbnail" src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/speaker/fanzhiming.jpg" alt="Fan Zhiming" />
 <b>Fan Zhiming</b>
 President
-Alipay</div>
+Domestic Business Division, Ant Financial Services Group</div>
 </li>
 <li>
 <div class="col col-xs-12"><img class="x-img center-block x-img-thumbnail" src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/speaker/sonny-vu.jpg" alt="Sonny Vu" />
@@ -481,6 +481,10 @@ jQuery(document).ready(function(){
 	var ua = navigator.userAgent.toLowerCase();
 	if (ua.indexOf('iphone')>-1 || ua.indexOf('ipod')>-1 || ua.indexOf('ipad')>-1) {
 		jQuery('.ios-app').attr('href', 'https://itunes.apple.com/us/app/gmic2015/id865975672');
+	}
+	var clientLang = (window.navigator.language||window.navigator.browserLanguage).toLowerCase();
+	if (clientLang.indexOf('zh')!=-1) {
+		jQuery('.lang-button').css('display', 'inline-block');
 	}
 });
 </script>
