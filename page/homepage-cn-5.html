@@ -211,7 +211,7 @@ CEO
 <div class="x-container-fluid max width program">
 <div class="col-md-3 col-sm-6 col-xs-12">
 <div class="x-promo">
-<div class="x-promo-image-wrap"><img src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/program/G20-summit.jpg" alt="G20 峰会" /></div>
+<div class="x-promo-image-wrap"><img src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/program/G20-summit.jpg?0420" alt="G20 峰会" /></div>
 <div class="x-promo-content"><strong>G20 峰会</strong>
 移动互联网世界级领袖参与的闭门会议（邀请制）。</div>
 </div>
@@ -257,7 +257,7 @@ CEO
 <div class="col col-md-3 col-sm-6 col-xs-12"><img src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/sponsor/top/inmobi-0328.png" alt="InMobi" /></div>
 <div class="sm-clear"></div>
 <div class="col col-md-3 col-sm-6 col-xs-12"><img src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/sponsor/top/huawei.png" alt="华为荣耀" /></div>
-<div class="col col-md-3 col-sm-6 col-xs-12"><img src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/sponsor/top/ucweb.png" alt="UCWeb" /></div>
+<div class="col col-md-3 col-sm-6 col-xs-12"><img src="http://beijing.thegmic.cn/wp-content/uploads/2015/01/ali-UC-gaode.png" alt="" /></div>
 <div class="clear"></div>
 <div class="col col-md-3 col-sm-6 col-xs-12"><img src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/sponsor/top/jd-finance.png?0417" alt="京东金融" /></div>
 <div class="col col-md-3 col-sm-6 col-xs-12"><img src="http://7u2l46.com5.z0.glb.qiniucdn.com/2015/sponsor/top/inveno.png" alt="英威诺" /></div>
@@ -280,6 +280,7 @@ CONNIE CHAN, PARTNER AT ANDREESSEN HOROWITZ</p>
 [/container]
 [/content_band]
 
+[visibility type="hidden-phone"]
 <div class="x-content-band man">
 <div class="x-container-fluid max width program">
 <div class="slider" id="brand-slider">
@@ -290,6 +291,7 @@ CONNIE CHAN, PARTNER AT ANDREESSEN HOROWITZ</p>
 </div>
 </div>
 </div>
+[/visibility]
 
 [content_band no_margin="true" inner_container="true" bg_color="#fff" border="vertical"]
 [custom_headline class="resp-h mvn" type="center" level="h2" accent="true"]GMIC 北京 2014 数据统计[/custom_headline]
@@ -423,10 +425,6 @@ jQuery(document).ready(function(){
 	});
 	jQuery('#speaker-slider').unslider();
 	jQuery('#brand-slider').unslider({dots: true});
-	var ua = navigator.userAgent.toLowerCase();
-	if (ua.indexOf('iphone')>-1 || ua.indexOf('ipod')>-1 || ua.indexOf('ipad')>-1) {
-		jQuery('.ios-app').attr('href', 'https://itunes.apple.com/cn/app/gmic2015/id865975672');
-	}
 	var clientLang = (window.navigator.language||window.navigator.browserLanguage).toLowerCase();
 	if (clientLang.indexOf('en')!=-1) {
 		jQuery('.lang-button').css('display', 'inline-block');
