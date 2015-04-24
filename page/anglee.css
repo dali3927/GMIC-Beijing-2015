@@ -19,7 +19,7 @@ h2 a:hover {
 .x-topbar .language {
 	margin-left: 30px;
 }
-@media (max-width: 767px) {
+@media (max-width: 600px) {
 	.x-topbar .hidden-link, .x-topbar .x-social-global {
 		display: none;
 	}
@@ -306,4 +306,44 @@ body.why-exhibit img.event {
 .slider .dots li.active {
 	background: #fff;
 	opacity: 1;
+}
+
+/* biography */
+.biography-div {
+	margin-top: 20px;
+}
+.biography-info {
+	text-align: center;
+	float: left;
+	width: 25%;
+}
+.biography-info img {
+	width: 160px;
+	margin-bottom: 1em;
+}
+.biography-info a {
+	display: inline-block;
+}
+.biography-intro {
+	float: right;
+	width: 70%;
+	margin-left: 5%;
+}
+@media (max-width: 767px) {
+	.biography-div {
+		margin-top: 0px;
+	}
+	.biography-info {
+		margin: 1em auto;
+		float: none;
+		width: 100%;
+	}
+	.biography-info img {
+		width: 160px;
+	}
+	.biography-intro {
+		float: none;
+		width: 100%;
+		margin-left: 0;
+	}
 }
