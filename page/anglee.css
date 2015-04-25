@@ -19,7 +19,10 @@ h2 a:hover {
 .x-topbar .language {
 	margin-left: 30px;
 }
-@media (max-width: 600px) {
+@media (max-width: 992px) {
+	.x-topbar {
+		text-align: center;
+	}
 	.x-topbar .hidden-link, .x-topbar .x-social-global {
 		display: none;
 	}
@@ -29,6 +32,7 @@ h2 a:hover {
 	.x-topbar .p-info {
 		padding: 0;
 		background: none;
+		float: none;
 	}
 }
 .x-topbar .p-info {
@@ -310,7 +314,7 @@ body.why-exhibit img.event {
 
 /* biography */
 .biography-div {
-	margin-top: 20px;
+	margin-top: 30px;
 }
 .biography-info {
 	text-align: center;
