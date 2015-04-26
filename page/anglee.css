@@ -232,10 +232,26 @@ body.why-exhibit img.event {
 		width: 90%;
 		margin: 0 auto 1em;
 		max-width: 300px;
+		overflow: hidden;
 	}
 	.speaker-avatar .col-xs-12 img {
 		width: 160px;
 		height: 160px;
+	}
+	.speaker-list .speaker-avatar .col-xs-12 {
+		max-width: 90%;
+	}
+	.speaker-list .speaker-avatar .col-xs-12 a {
+		float: left;
+	}
+	.speaker-list .speaker-avatar .col-xs-12 img {
+		width: 80px;
+		height: 80px;
+		margin-right: 10px;
+	}
+	.speaker-list .speaker-avatar .col-xs-12 .detail {
+		float: left;
+		text-align: left;
 	}
 }
 @media (min-width: 768px) and (max-width: 992px) {
@@ -251,22 +267,6 @@ body.why-exhibit img.event {
 	.speaker-avatar .sm-clear {
 		clear: both;
 	}
-}
-
-.speaker-list .speaker-avatar .col-xs-12 {
-	overflow: hidden;
-}
-.speaker-list .speaker-avatar .col-xs-12 a {
-	float: left;
-}
-.speaker-list .speaker-avatar .col-xs-12 img {
-	width: 80px;
-	height: 80px;
-	margin-right: 10px;
-}
-.speaker-list .speaker-avatar .col-xs-12 .detail {
-	float: left;
-	text-align: left;
 }
 
 /* GMIC Global Locations */
