@@ -253,6 +253,22 @@ body.why-exhibit img.event {
 	}
 }
 
+.speaker-list .speaker-avatar .col-xs-12 {
+	overflow: hidden;
+}
+.speaker-list .speaker-avatar .col-xs-12 a {
+	float: left;
+}
+.speaker-list .speaker-avatar .col-xs-12 img {
+	width: 80px;
+	height: 80px;
+	margin-right: 10px;
+}
+.speaker-list .speaker-avatar .col-xs-12 .detail {
+	float: left;
+	text-align: left;
+}
+
 /* GMIC Global Locations */
 .global-logo {
 	margin-bottom: 1em;
